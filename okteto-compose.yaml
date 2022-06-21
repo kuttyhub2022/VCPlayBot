@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  worker:
+    builder: .
+    environment:
+      - API_ID=${API_ID}
+      - API_HASH=${API_HASH}
+      - STRING_NAME=${STRING_NAME}
+      - BOT_TOKEN=${BOT_TOKEN}
+      - SUDO_USERS=${SUDO_USERS}
